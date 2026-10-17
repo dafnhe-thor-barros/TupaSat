@@ -183,6 +183,7 @@ TupaSat/
 │   ├── especificacao_tecnica_tupasat.md       # Requisitos de sistemas e subsistemas (ECSS)
 │   ├── conops.md                              # Concept of Operations (modos de operação)
 │   ├── evolucao_arquitetural_v2.md            # Especificação da evolução avançada v2.0
+│   ├── payload_sstv_e_cameras.md              # Carga útil opcional de câmera e transmissão SSTV
 │   ├── protocolo_telemetria.md                # Estrutura de pacotes LoRa 915 MHz e CRC16
 │   ├── guia_montagem_mecanica_e_eletrica.md   # Passo a passo pedagógico de integração física
 │   └── procedimentos_de_teste.md              # Roteiros de testes e validação em solo
@@ -192,7 +193,8 @@ TupaSat/
 │   │   └── pinout_conexoes.md                 # Mapeamento elétrico básico (Arduino UNO)
 │   ├── tupastack_bus_specification.md         # Barramento empilhável padronizado de 30 pinos
 │   └── mecanica_3d/
-│       └── README.md                          # Diretrizes e parâmetros de impressão 3D (PLA/PETG)
+│       ├── README.md                          # Diretrizes e parâmetros de impressão 3D (PLA/PETG)
+│       └── referencias_modelos_3d.md          # Catálogo comparativo de modelos STL abertos
 ├── firmware/                                  # Softwares embarcados na OBC
 │   ├── tupasat_obc_arduino/                   # Firmware v1.0 para Arduino UNO + Shield
 │   │   ├── tupasat_obc_arduino.ino
@@ -212,6 +214,22 @@ TupaSat/
         ├── web_dashboard.py                   # Dashboard Web interativo em tempo real
         └── requirements.txt
 ```
+
+---
+
+## 🖨️ Modelos 3D e Projetos de Referência da Comunidade
+
+O TupãSat é compatível com os principais modelos de chassi 1U de código aberto da comunidade internacional:
+
+* **CubeSatSim Universal 1U (AMSAT):** [Thingiverse 4333605](https://www.thingiverse.com/thing:4333605) *(Recomendado para uso com o barramento TupãStack)*
+* **HeliosCube-Eleni 1U:** [MakerWorld 1735798](https://makerworld.com/pt/models/1735798-helioscube-eleni-open-source-1u-cubesat) e [Eletrônica Modular](https://makerworld.com/pt/models/1735791-electronics-of-the-helioscube-eleni)
+* **Robinson Aerospace 1U Structure:** [Thingiverse 6947346](https://www.thingiverse.com/thing:6947346)
+* **Universal 1U CubeSat por Juliano85:** [Thingiverse 4096437](https://www.thingiverse.com/thing:4096437)
+* **Launch-Ready SSTV CubeSat (Transmissão de Imagens):** [Instructables SSTV CubeSat](https://www.instructables.com/Launch-Ready-SSTV-CubeSat)
+* **HyperDuino CubeSat Project:** [Instructables HyperDuino](https://www.instructables.com/HyperDuino-based-CubeSat)
+* **MIT Stellarons CubeSat Project:** [Instructables Stellarons](https://www.instructables.com/Stellarons-MIT-Cubesat-Project)
+
+Consulte o comparativo completo e parâmetros de fatiamento em [`hardware/mecanica_3d/referencias_modelos_3d.md`](hardware/mecanica_3d/referencias_modelos_3d.md).
 
 ---
 
