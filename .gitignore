@@ -1,0 +1,25 @@
+# Compilação e Binários
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.a
+*.lib
+
+# Arduino / PlatformIO
+.pio/
+.vscode/
+*.build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env/
+
+# Sistema Operacional
+Thumbs.db
+.DS_Store
+*.log
