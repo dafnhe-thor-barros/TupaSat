@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Se você utilizar este projeto ou kit em pesquisas ou atividades acadêmicas, por favor cite o artigo de referência abaixo."
+title: "TupãSat: Kit de CubeSat para Fins Acadêmicos (Projeto, Construção e Aplicações)"
+authors:
+  - family-names: "Barros"
+    given-names: "Dafnhê Thor Castro de Martins"
+    orcid: ""
+version: 1.0.0
+date-released: 2025-08-18
+url: "https://github.com/dafnhe-thor-barros/TupaSat"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Barros"
+      given-names: "Dafnhê Thor Castro de Martins"
+  title: "Desenvolvimento de um kit de CubeSat para fins acadêmicos: projeto, construção e aplicações"
+  journal: "Caderno Pedagógico"
+  volume: 22
+  issue: 10
+  start: 1
+  end: 19
+  year: 2025
+  doi: "10.54033/cadpedv22n10-248"
+  issn: "1983-0882"
+  url: "https://ojs.studiespublicacoes.com.br/ojs/index.php/cadped/article/view/19367"

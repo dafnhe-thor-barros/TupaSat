@@ -1,0 +1,13 @@
+Item,Qtd,Sistema,Descricao,Potencia_mW,Preco_BRL,Peso_g,Observacoes
+1,1,OBC,Placa Microcontroladora Arduino UNO R3 (ATmega328P),600,50.00,58,Computador de Bordo principal
+2,1,OBC,Sensor Shield V5.0 para Arduino,240,15.00,26,Barramento de expansao para sensores e atuadores
+3,1,Payload,Sensor de Temperatura e Umidade de Alta Precisao AHT10,70,15.00,13,Interface I2C (0x38)
+4,1,Payload,Sensor de Pressao Barometrica e Temperatura BMP180,50,15.00,12,Interface I2C (0x77)
+5,1,Payload,Modulo Receptor GNSS/GPS (NEO-6M / compativel),250,55.00,25,Interface UART (9600 bps)
+6,1,COMMS,Modulo Transceptor LoRa SX1276 915MHz RF + Antena,300,65.00,25,Interface SPI e pinos de controle
+7,6,EPS,Paineis Solares Fotovoltaicos 6V (faces 1U),-2160,125.00,138,Geracao fotovoltaica nominal (~360 mW por face)
+8,1,EPS,Bateria de Ion de Litio 12V 5000mAh com protecao BMS,-,120.00,200,Armazenamento de energia para ciclo de eclipse
+9,1,EPS,Modulo Controlador de Carga e Regulador com algoritmo MPPT,-,50.00,200,Gerenciamento de carga e protecao de bateria
+10,1,Estrutural,Kit Frame Estrutural CubeSat 1U impresso em PLA/PETG,-,200.00,200,Chassi modular 100x100x100 mm com rails
+11,1,Estrutural,Kit de fixacao (parafusos M3, porcas, arruelas, cabos e conectores),-,100.00,150,Montagem mecânica e barramento interno
+Total Estimado,-,-,-,-,810.00,822,Massa abaixo do limite regulamentar de 1000g
